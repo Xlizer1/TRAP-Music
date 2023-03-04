@@ -1,7 +1,6 @@
 FROM node:16-alpine AS BUILD
 WORKDIR /build
 COPY . /build
-RUN rm -r Procfile LICENSE README.md
 RUN npm install --production
 
 FROM node:16-alpine
