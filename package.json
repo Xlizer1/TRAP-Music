@@ -1,17 +1,13 @@
 {
-  "name": "dodong",
-  "homepage": "https://github.com/nizewn/Dodong#readme",
-  "bugs": "https://github.com/nizewn/Dodong/issues",
+  "name": "trap-music",
   "license": "MIT",
-  "description": "A music bot written using discord.js and discord-player",
+  "description": "",
   "main": "index.js",
-  "keywords": [
-    "discord",
-    "music",
-    "bot",
-    "discordjs"
-  ],
-  "author": "nizewn",
+  "author": "xlizer",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "@discord-player/extractor": "^3.0.3",
     "@discordjs/opus": "^0.8.0",
@@ -21,12 +17,5 @@
     "ffmpeg-static": "^5.1.0",
     "play-dl": "^1.9.6",
     "node-fetch": "2"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nizewn/Dodong.git"
   }
 }
